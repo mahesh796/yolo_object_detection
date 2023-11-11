@@ -114,8 +114,24 @@ else:
 custom_css = """
 <style>
 
-    .button.st-emotion-cache-iiif1v.ef3psqc4 {
-        fill: #17a2b8;
+    .button.css-iiif1v.ef3psqc3 {
+        display: none;
+    }
+
+    .css-30do4w.e3g6aar0 {
+        display: none;
+    }
+
+    .css-1lb4qcp.e3g6aar0 {
+        display: none;
+    }
+
+    .button.css-ztfqz8.ef3psqc4{
+         display: none;
+    }
+
+    .button.styles_terminalButton__JBj5T{
+        display: none;
     }
 
     /* Add more styles as needed */

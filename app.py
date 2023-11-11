@@ -9,6 +9,18 @@ import streamlit as st
 import settings
 import helper
 
+# Add global CSS
+global_css = """
+<style>
+    button.css-iiif1v.ef3psqc3  button.css-ztfqz8.ef3psqc4 button.styles_terminalButton__JBj5T{
+    display: none;
+}
+</style>
+"""
+
+# Display global CSS using st.markdown
+st.markdown(global_css, unsafe_allow_html=True)
+
 # Setting page layout
 st.set_page_config(
     page_title="Object Detection using YOLOv8",

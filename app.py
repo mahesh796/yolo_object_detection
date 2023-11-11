@@ -9,18 +9,6 @@ import streamlit as st
 import settings
 import helper
 
-# Add global CSS
-global_css = """
-<style>
-    button.css-iiif1v.ef3psqc3{
-    display: none;
-    }
-</style>
-"""
-
-# Display global CSS using st.markdown
-st.markdown(global_css, unsafe_allow_html=True)
-
 # Setting page layout
 st.set_page_config(
     page_title="Object Detection using YOLOv8",
@@ -121,3 +109,18 @@ elif source_radio == settings.YOUTUBE:
 
 else:
     st.error("Please select a valid source type!")
+
+
+custom_css = """
+<style>
+
+    .button.st-emotion-cache-iiif1v.ef3psqc4 {
+        fill: #17a2b8;
+    }
+
+    /* Add more styles as needed */
+</style>
+"""
+
+# Display custom CSS using st.markdown
+st.markdown(custom_css, unsafe_allow_html=True)

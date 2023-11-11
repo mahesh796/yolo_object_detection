@@ -12,9 +12,9 @@ import helper
 # Add global CSS
 global_css = """
 <style>
-    button.css-iiif1v.ef3psqc3  button.css-ztfqz8.ef3psqc4 button.styles_terminalButton__JBj5T{
+    button.css-iiif1v.ef3psqc3{
     display: none;
-}
+    }
 </style>
 """
 
